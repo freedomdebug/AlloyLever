@@ -41,6 +41,8 @@ AlloyLever.config({
 AlloyLever会监听`window.onerror`并把错误信息保存下来，并且上报到reportUrl，你也可以召唤到vConsole并显示出来错误和相关日志。
 或者使用这个CDN也可以:[//pub.idqqimg.com/qqun/qun/qqweb/m/qun/confession/js/vconsole.min.js](//pub.idqqimg.com/qqun/qun/qqweb/m/qun/confession/js/vconsole.min.js)
 
+需要注意的是，该js必须引用在其他脚本之前。
+
 ## url唤起vConsole
 
 只要你的页面引用了AlloyLever，你只需要在你的url里带上 vconsole=show 就能显示vConsole面板。如:
